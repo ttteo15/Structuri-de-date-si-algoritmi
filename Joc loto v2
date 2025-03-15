@@ -1,0 +1,15 @@
+Joc loto (v2)
+Să se realizeze un program care să listeze participanții la o extragere a loteriei și sumele câștigate de aceștia. Se introduce de la tastatură o secvență de 2 numere câștigătoare și se stabilește premiul acordat fiecărui jucător. Un jucător poate juca maxim 10 numere întregi, din intervalul [1, 49]. Se premiază ghicirea a 1 (categoria 2), respectiv 2 (categoria 1) numere. Fondul total de câștiguri se împarte după cum urmează:
+
+70% se alocă categoriei 1;
+30% se alocă categoriei a 2-a;
+În cazul în care există mai mulţi câştigători în cadrul unei categorii, indiferent de numărul acestora, contravaloarea premiul se împarte în mod egal între toţi câştigătorii categoriei respective.
+
+Să se realizeze în limbajul C următoarele:
+
+o funcție ce permite extragerea (citirea de la tastatură) și stocarea unei secvențe de 2 numere câștigătoare și citirea de la tastatură a fondului total de câștiguri;
+o funcție ce determină câte numere câștigătoare au fost ghicite de către fiecare jucător;
+o funcție care calculează suma alocată pentru fiecare categorie, în parte;
+o funcție care calculează suma câștigată de fiecare jucător, în parte;
+o funcţie care afişează numele şi suma câştigată pentru fiecare jucător;
+un program ce integrează funcțiile realizate anterior pentru a rezolva problema enunțată.
